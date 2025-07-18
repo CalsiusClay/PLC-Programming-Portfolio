@@ -104,4 +104,3 @@ If you found a bug, want to suggest a better way to handle timers, or just have 
 ### 🌟 Star this repo if:
 - You're learning CODESYS or ST  
 - You like nerdy portfolios  
-- You believe timers deserve more respect

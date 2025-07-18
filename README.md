@@ -1,4 +1,4 @@
-# 🧠 PLC Programming Portfolio – Nathanael K. Binu (@kermitsmittle)
+# 🧠 PLC Programming Portfolio – Nathanael K Binu (@kermitsmittle)
 
 Welcome to my PLC Programming Portfolio! This repo documents my journey into the world of industrial automation and control systems, with a laser focus on **Structured Text (ST)** and the **CODESYS V3** platform.
 

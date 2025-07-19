@@ -6,6 +6,8 @@
 *_*-DESKTOP-*.opt
 *.precompilecache
 *.opt
+*TOF-Nathanael K Binu-DESKTOP-Q5J7JU0.opt
+*TOF-AllUsers.opt
 
 # Ignore compile & runtime files
 *.bootinfo

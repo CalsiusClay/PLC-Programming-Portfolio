@@ -5,6 +5,7 @@
 *_AllUsers.opt
 *_*-DESKTOP-*.opt
 *.precompilecache
+*.opt
 
 # Ignore compile & runtime files
 *.bootinfo

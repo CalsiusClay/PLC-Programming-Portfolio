@@ -1,0 +1,42 @@
+# 🌩️ CODESYS Temporary & User-Specific Junk
+
+# Ignore user backups and temp units
+*.~u
+*_AllUsers.opt
+*_*-DESKTOP-*.opt
+*.precompilecache
+
+# Ignore compile & runtime files
+*.bootinfo
+*.bootinfo_guids
+*.compileinfo
+
+# Ignore editable project files
+*.project
+
+# Ignore settings and build data
+*.db
+*.log
+*.old
+*.bak
+*.tmp
+*.workspace
+*.plcsettings
+
+# Ignore visualization/webvisu cache
+*.cache
+*.webvisu
+VisualizationCache/
+
+# Ignore folders for build or output (if you add later)
+build/
+output/
+release/
+
+# 💻 VS Code settings (if you're using it for markdown or git)
+.vscode/
+*.code-workspace
+
+# 🗑️ OS-generated files
+Thumbs.db
+Desktop.ini

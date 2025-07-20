@@ -42,48 +42,6 @@ The logic is written in Structured Text and tested using **CODESYS SoftPLC**, ma
 
 ---
 
-## 🧠 Program Structure
-
-|        File             
-
-| Description |
-|-------------------------|-------------|
-| `BinTipperMain.st`      | Main program coordinating the sequence |
-| `FB_TipperControl.st`   | Optional function block for tipping logic (forward, wait reverse) |
-| `FB_BinCounter.st`      | Optional function block for managing the bin counter |
-| `FB_ConveyorControl.st` | Optional function block for conveyor interlocks |
-| `README.md` | You're reading it 😎 |
-
----
-
-## 🔧 I/O Simulation Map
-
-In CODESYS, all inputs are simulated using BOOL variables or visualization buttons. Outputs are also monitored through BOOL flags or visualization indicators.
-
-### ➡️ Simulated Inputs
-| Name        | Type | Description |
-|-------------|------|-------------|
-| `Sensor_1`  | BOOL | Bin enters |
-| `Sensor_2`  | BOOL | Before tipper |
-| `Sensor_3`  | BOOL | In tipper |
-| `Sensor_4`  | BOOL | Tip-ready |
-| `Limit_FWD` | BOOL | Tipper fully tipped |
-| `Limit_REV` | BOOL | Tipper returned |
-| `Sensor_5`  | BOOL | Bin on Conveyor 2 |
-| `Sensor_6`  | BOOL | Bin exited |
-
-### ⬅️ Simulated Outputs
-|     Name         | Type | Description |
-|------------------|------|-------------|
-|    `Conveyor1`   | BOOL | Conveyor 1 |
-| `TipperConveyor` | BOOL | Moves bin into tipper |
-|    `TipperFwd`   | BOOL | Tipper forward |
-|    `TipperRev`   | BOOL | Tipper reverse |
-|    `Conveyor2`   | BOOL | Conveyor 2 |
-|    `Conveyor3`   | BOOL | Conveyor 3 |
-
----
-
 ## 🛠️ Tools Used
 
 - **CODESYS V3.5** for development and simulation

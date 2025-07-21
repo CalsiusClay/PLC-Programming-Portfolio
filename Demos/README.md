@@ -4,7 +4,7 @@ This section will house larger automation demo systems as I progress. These are 
 
 ## Planned Demos:
 
-- ✅ **HVAC Surgery Room Demo**
+- ⏳ **HVAC Surgery Room Demo**
 - ⏳ Conveyor Belt Safety System
 - ⏳ Multi-floor Lift Control System
 - ⏳ Industrial Washing Line Automation
